@@ -1,0 +1,61 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://chainick.github.io"
+
+# THEME-SPECIFIC CONFIGURATION
+# site's title
+title: Чайник
+
+# used by search engines
+description: "Домашний проект Чайника для небольших публикаций на тему фотографии и дизайна"
+
+# Empty for no avatar in navbar
+avatar: assets/img/triangle.png
+
+# Icon displayed in the tab
+favicon: assets/favicon.ico
+
+# Header and footer text
+show_header: false                                      # Is it allow to show header for post list in the blog?
+header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
+header_feature_image: assets/img/triangular.jpeg
+footer_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+
+# Blog
+excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image: assets/img/lineart.png                     # A bit transparent for color posts.
+
+# Features
+#katex: true                                            # Enable if using math markup
+google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+cookie_consent: false                                   # To respect the usage of cookies
+comments: true                                       # Сomments for site
+layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
+footer_icons: false                                           # In _data/social.yml
+share_buttons: false                                          # In _data/social.yml
+authors:                                                # In _data/authors.yml
+language:                                               # In _data/language.yml
+
+# PAGINATION
+paginate: 5
+paginate_path: "/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+plugins:
+    - jekyll-paginate
+    - jekyll-seo-tag
+    - jekyll-feed
+
+lang: ru_RU
+
+exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules"]
+
+# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github

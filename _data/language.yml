@@ -1,0 +1,30 @@
+# Localization strings
+str_follow_on: "Follow on"
+str_rss_follow: "Follow RSS feed"
+str_share_on: "Share on"
+str_add_to: "Add to"
+str_email: "Email"
+str_tweet: "Tweet"
+str_pin_it: "Pin it"
+str_next_post: "Вперед"
+str_previous_post: "Назад"
+str_next_page: "Вперед"
+str_previous_page: "Назад"
+str_no_result_found: "Ничего не найдено"
+str_cookie_approve: "Approve"
+str_cookie_disclaimer: "We would like to use third party cookies and scripts to improve the functionality of this website."
+
+
+months:
+    - Января
+    - Февраля
+    - Марта
+    - Апреля
+    - Мая
+    - Июня
+    - Июля
+    - Августа
+    - Сентября
+    - Октября
+    - Ноября
+    - Декабря

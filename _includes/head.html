@@ -61,12 +61,6 @@
           </span><a id="cookie-notice-accept" class="button">{{ site.data.language.str_cookie_approve | default: "Approve" }}</a>
         </div>
     {% endif %}
-    {% if site.google_analytics %}
-        <!-- Global site tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-        <!-- Page analysis (analytics.js) -->
-        <script async src='https://www.google-analytics.com/analytics.js'></script>
-    {% endif %}
 
     <!-- seo tags -->
     <meta property="og:image" content="{{ seo_image }}">
@@ -102,4 +96,15 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/66774922" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176551880-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-176551880-1');
+    </script>
+    
 </head>

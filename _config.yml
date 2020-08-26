@@ -10,7 +10,7 @@ title: Чайник
 description: "Домашний проект Чайника для небольших публикаций на тему фотографии и дизайна"
 
 # Empty for no avatar in navbar
-avatar: assets/img/triangle.png
+avatar: assets/img/kettle-teapot.png
 
 # Icon displayed in the tab
 favicon: assets/favicon.ico
@@ -53,11 +53,17 @@ plugins:
     - jekyll-seo-tag
     - jekyll-feed
 
+
+#     _____ __________
+#    / ___// ____/ __ \
+#    \__ \/ __/ / / / /
+#   ___/ / /___/ /_/ /
+#  /____/_____/\____/    Verify Website to Webmaster Tools
+
+google_site_verification: 'ZwZPohlOzgbmAOP2jDGnbn2nmIVU-QJDWXewFWMuCMs'
+bing_webmastertools_id: 'A8E2B37A32A2A4E27240EAA714BE7757'
+yandex_site_verification:  'fda6cc9c2a48c539'
+
 lang: ru_RU
 
 exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules"]
-
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-#remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
-
-#theme: jekyll-theme-midnight

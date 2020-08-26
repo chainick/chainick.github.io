@@ -81,4 +81,10 @@
     {% if site.theme_settings.twitter %}<meta name="twitter:creator" content="@{{ site.theme_settings.twitter }}">{% endif %}
     <meta name="twitter:card" content="{% unless page.thumbnail %}summary{% else %}summary_large_image{% endunless %}">
     <meta name="twitter:image" content="{{ seo_image }}">
+
+    {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}">{% endif %}
+    {% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" >{% endif %}
+    {% if site.yandex_site_verification %}<meta name="yandex-verification" content="{{ site.yandex_site_verification }}">{% endif %}
+    {% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
+
 </head>

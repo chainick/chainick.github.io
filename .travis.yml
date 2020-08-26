@@ -28,7 +28,7 @@ branches:
   only:
     - master
     - /^v.*$/
-    -
+
 jobs:
   include:
     - stage: gem release

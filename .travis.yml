@@ -17,7 +17,7 @@ before_install:
 
 script:
   - bundle install
-  - bundle exec jekyll build
+  - bundle exec jekyll build --trace
 
 after_script:
   - gem install type-on-strap

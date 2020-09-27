@@ -59,6 +59,7 @@ tags:
 {% include
     aligner.html
     images="images/2020-08-25-ansel-adams-negative/cover-front.jpg,images/2020-08-25-ansel-adams-negative/cover-back.jpg"
+    alts="Ансель Адамс - Негатив"
 %}
 
 Представленные PDF-файлы отличаются разрешением иллюстраций и размером, соответственно.
@@ -74,6 +75,7 @@ tags:
 {% include
     aligner.html
     images="images/2020-08-25-ansel-adams-negative/page-044.jpg,images/2020-08-25-ansel-adams-negative/page-089.jpg,images/2020-08-25-ansel-adams-negative/page-222.jpg"
+    alts="Ансель Адамс - Негатив"
     column=3
 %}
 
@@ -86,6 +88,7 @@ tags:
 {% include
     aligner.html
     images="images/2020-08-25-ansel-adams-negative/page-164.jpg,images/2020-08-25-ansel-adams-negative/page-180.jpg,images/2020-08-25-ansel-adams-negative/page-188.jpg"
+    alts="Ансель Адамс - Негатив"
     column=3 %}
 
 Тем не менее, *Приложение 1* все же пришлось увеличить на одну страницу, из-за объема текста перевода. Чтобы сохранить актуальными ссылки на страницы, к номеру новой страницы был добавлен префикс А: <code>А-245</code>.

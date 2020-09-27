@@ -46,7 +46,13 @@ layout: page
                     </a>
                     
                     <div class="meta">
-                        {{ "today" | date: "%B %-d, %Y" }}
+                        {% capture ru_date %}
+                            {{ "today" | date: "%-d" }}
+                            {% assign m = "today" | date: "%-m" | minus: 1 %}
+                            {{ site.data.language.months[m] }}
+                            {{ "today" | date: "%Y" }}
+                        {% endcapture %}
+                        {{ ru_date }}
                     </div>
                 </h5>
                 {% endif %} 
@@ -62,7 +68,13 @@ layout: page
                     </a>
                     
                     <div class="meta">
-                        {{ post.date | date: "%B %-d, %Y" }}
+                    {% capture ru_date %}
+                        {{ post.date | date: "%-d" }}
+                        {% assign m = post.date | date: "%-m" | minus: 1 %}
+                        {{ site.data.language.months[m] }}
+                        {{ post.date | date: "%Y" }}
+                    {% endcapture %}
+                        {{ ru_date }}
                     </div>
                 </h5>
                 {% endif %} 

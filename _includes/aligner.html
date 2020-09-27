@@ -1,4 +1,5 @@
 {% assign images = include.images | split: ',' %}
+{% assign alts = include.alts | split: ',' %}
 
 {% if include.column == "auto" %}
 {% assign column = 100.0 | divided_by: images.size %}
@@ -6,12 +7,26 @@
 {% assign column = 100.0 | divided_by: include.column %}
 {% endif %}
 
+{% assign altdef = "" %}
+{% if alts.size < images.size && alts.size > 0 %}
+{% assign altdef = alts[0] %}
+{% endif %}
+
+
 <div class="row">
     {% for image in images %}
+             {% if alts[forloop.index0] %}
+                {% capture alt %}{{ alts[forloop.index0] | escape }}{% endcapture %}
+             {% elsif alts.size > 0 %}
+                {% capture alt %}{{ altdef | escape }}{% endcapture %}
+             {% else %}
+                {% capture alt %}{{ image | prepend: '/' | split: '/' | last }}{% endcapture %}
+             {% endif %}
+
     <div {% if column %} style="flex: {{ column }}%" {% else %} class="column" {% endif %}  >
         <a data-fancybox="gallery" href="{{ image | relative_url }}"><img {% if images.size == 1 %}class="single"{% endif %}
              src="{{ image | relative_url }}"
-             alt="{{ image | prepend: '/' | split: '/' | last }}"></a>
+             alt="{{ alt }}"></a>
     </div>
     {% endfor %}
 </div>

@@ -82,8 +82,11 @@ tags:
 %}
 
 
+Скачать руководство пользователя **Minolta Spotmeter F** на русском языке:
 
-Скачать [Руководство пользователя **Minolta Spotmeter F** на русском языке (PDF, 16.5 Мб, Яндекс.Диск)](https://bit.ly/31WymuJ).
+* [Minolta SPOTMETER F Rus.pdf](https://bit.ly/31WymuJ), 16.5 Мб, Яндекс.Диск
+* [Minolta SPOTMETER F Rus LowRes.pdf](http://bit.ly/3ilmeKu), 1.8 Мб, Яндекс.Диск
+
 
 {% include
     aligner.html

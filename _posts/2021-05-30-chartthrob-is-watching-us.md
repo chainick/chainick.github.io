@@ -4,7 +4,7 @@ layout: post
 ### ЗАГОЛОВОК СТРАНИЦЫ ###
 
 # Текст заголовка
-title: ChartThrob шпионит за вам
+title: ChartThrob шпионит за вами
 
 # Текст подзаголовка
 subtitle: "What are you looking for?"

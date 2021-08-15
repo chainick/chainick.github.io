@@ -24,9 +24,7 @@
              {% endif %}
 
     <div {% if column %} style="flex: {{ column }}%" {% else %} class="column" {% endif %}  >
-        <a data-fancybox="gallery" href="{{ image | relative_url }}"><img {% if images.size == 1 %}class="single"{% endif %}
-             src="{{ image | relative_url }}"
-             alt="{{ alt }}"></a>
+        <a data-fancybox="gallery" href="{{ image | strip | relative_url }}"><img {% if images.size == 1 %}class="single"{% endif %} src="{{ image | strip | relative_url }}" alt="{{ alt | strip }}"></a>
     </div>
     {% endfor %}
 </div>

@@ -53,7 +53,8 @@ layout: default
 
   header#main {
     background-repeat:no-repeat;
-  {% if page.feature-img %} background-image: url('{{ page.feature-img | relative_url }}');
+  {% if page.feature-img %}  background-image: url('{{ page.feature-img | relative_url }}');
+    background-position: 50% 0, 0 center, center top;
   {% elsif page.color %}background-image: url('{{ site.color_image | relative_url }}');  {% endif %}
   }
 </style>

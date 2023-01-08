@@ -123,12 +123,6 @@ column=5
 * [Digital Negatives Bridging The Centuries by Mark Nelson]()
 {% endcomment %}
 
-
-И видео тоже:
-
-* [Playlist Digital Negatives *by Bill Schwab*](https://www.youtube.com/playlist?list=PL_3HStA6i1_o7El9SS1eXO7a5XiZvLBCR)
-* [Playlist Easy Digital Negatives *by Peter Mrhar*](https://www.youtube.com/playlist?list=PLmrRHNMUIvt2EPPjx1-NFzva3mMtQn3hp)
-
 Учитывая рост интереса к альтернативным фотопроцессам, книг, посвященных, 
 в том числе и созданию цифровых негативов, публикуется все больше: 
 
@@ -239,3 +233,11 @@ column=4
 на оттенки и цвета́ при цветной печати. Также книга дополнительно сопровождается 
 файлами примеров, эксель-таблицами для расчетов и несколькими видео. 
 Детальное рассмотрение работы будет представлено в одной из следующих публикаций.
+
+## Видео
+
+* [Playlist Digital Negatives *by Bill Schwab*](https://www.youtube.com/playlist?list=PL_3HStA6i1_o7El9SS1eXO7a5XiZvLBCR)
+* [Playlist Easy Digital Negatives *by Peter Mrhar*](https://www.youtube.com/playlist?list=PLmrRHNMUIvt2EPPjx1-NFzva3mMtQn3hp)
+* [Digital Negative for Alternative Photography *by Paolo Saccheri*](https://paolo-saccheri.thinkific.com/courses/digital-negative)
+
+[![Digital Negative for Alternative Photography by Paolo Saccheri](/images/2021-08-13-digital-negative-docs/paolo-saccheri-course.png)](https://paolo-saccheri.thinkific.com/courses/digital-negative)
